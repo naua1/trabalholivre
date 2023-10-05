@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Compras Online</h1>
+    </header>
+    <div class="informacoes">
+        <form>
+            <h2>Informaçãoes do comprador</h2>
+            <div class="input">
+                <label for="primeiroNome">Primeiro Nome</label>
+                <input  id='primeiroNome' type="text">
+            </div>
+            
+            <div class="input">
+                <label for="ultimoNome">Ultimo Nome</label>
+                <input  id='ultimoNome' type="text">
+                <div> 
+            </div>
+                
+            </div>
+            
+            <div class="input">
+                <label for="email">Digite o seu numero</label>
+            <input   id='email' type="email">
+            </div>
+            
+            <div class="input">
+                <label for="endereco">Endereço</label>
+            <input  id='Endereco' type="text">
+            </div>
+           
+            
+            <div class="input select">
+                <label for="produto">Escolha um Protudo</label>
+                <select  id="produto">
+                    <option value="vazio">escolha um protudo</option>
+                    <option value="teclado">Teclado</option>
+                    <option value="Mouse">Mouse</option>
+                    <option value="Monitor">Monitor</option>
+                    <option value="Gabinete">Gabinete</option>
+                    <option value="processador">Processador</option>
+                    <option value="cupon">Cupons</option>
+                </select> 
+            </div>
+
+            <button onclick="site()">comprar</button>
+
+        </form>
+        <div class="iframe" id="iframe">
+            
+        </div>
+        </div>
+        
+</body>
+<script src="arquivo.js"></script>
+</html>
